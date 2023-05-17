@@ -1,0 +1,90 @@
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .wide-containerone {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    background-image: url('../photo/back.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .image-text-container {
+    width: 400px;
+    word-break: break-word;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  .icon-list {
+    position: relative; /* Add position relative */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    z-index: 2; /* Ensure the list items are on top */
+  }
+  
+  .decorative-circle {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #C7E6FF;
+    z-index: 1;
+  }
+  
+  .decorative-circle-purple {
+    position: absolute;
+    left: calc(50% + 40px); /* Adjust the value as per your needs */
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #E6CCFF;
+    z-index: 1;
+  }
+  
+  .icon-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .icon-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+  
+  .icon-list img {
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    margin-top: -20px;
+  }
+  
+  .icon-list span {
+    text-align: left;
+    font-size: 20px;
+    color: black;
+  }
