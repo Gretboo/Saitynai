@@ -28,7 +28,10 @@ const Working = () => {
           ))}
         </div>
 
-        </div>   
+        </div> 
+        <footer className="footer">
+            <p>&copy; 2023 Eagle. All rights reserved.</p>
+        </footer>  
         </div>
     );
 };
