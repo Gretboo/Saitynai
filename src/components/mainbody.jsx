@@ -1,9 +1,9 @@
 import React from 'react';
 import './mainbody.css'; 
 
-const MainBody = () => {
+const MainBody = (props) => {
     const handleClick = (evt) => {
-        props.handleButtonClick(evt.target.value)
+        props.handleButtonClick("Paslaugos")
       }
   return (
     <div className="main-page">

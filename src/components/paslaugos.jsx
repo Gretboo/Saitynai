@@ -4,9 +4,9 @@ import Toggle from 'react-toggle';
 import 'react-toggle/style.css';
 
 
-const Paslaugos = () => {
+const Paslaugos = (props) => {
     const handleClick = (evt) => {
-        props.handleButtonClick(evt.target.value)
+        props.handleButtonClick("Cart")
       }
     return(
         <div className="paslaugos">

@@ -12,10 +12,6 @@ const MenuBar = (props) => {
   const handleCartClick = () => {
     props.handleTargetChange("Cart");
   };
-  const handleUserClick = () => {
-    props.handleTargetChange("User");
-  };
-  
 
   return (
     <header>
@@ -60,7 +56,6 @@ const MenuBar = (props) => {
               width="30"
               height="30"
             ></img>
-            
           </div>
         </ul>
       </nav>
